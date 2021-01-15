@@ -1,17 +1,8 @@
+import 'package:app_comercial/src/app.dart';
 import 'package:flutter/material.dart';
 
-void main() {
-  runApp(MainApp());
-}
+void main() => runApp(MainApp());
 
-class MainApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'App comercial informativa',
-      home: Scaffold()
-    );
-  }
-}
+
 
 
